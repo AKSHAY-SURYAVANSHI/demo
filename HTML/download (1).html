@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+
+<html lang="en-us" dir="ltr">
+<head>
+<title>Akshay | Change signup_student | Django site admin</title>
+<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css">
+
+  <link rel="stylesheet" type="text/css" href="/static/admin/css/nav_sidebar.css">
+  <script src="/static/admin/js/nav_sidebar.js" defer></script>
+
+<link rel="stylesheet" type="text/css" href="/static/admin/css/forms.css">
+
+
+<script src="/admin/jsi18n/"></script>
+<script src="/static/admin/js/vendor/jquery/jquery.js"></script>
+<script src="/static/admin/js/calendar.js"></script>
+<script src="/static/admin/js/jquery.init.js"></script>
+<script src="/static/admin/js/admin/DateTimeShortcuts.js"></script>
+<script src="/static/admin/js/core.js"></script>
+<script src="/static/admin/js/admin/RelatedObjectLookups.js"></script>
+<script src="/static/admin/js/actions.js"></script>
+<script src="/static/admin/js/urlify.js"></script>
+<script src="/static/admin/js/prepopulate.js"></script>
+<script src="/static/admin/js/vendor/xregexp/xregexp.js"></script>
+
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/responsive.css">
+    
+
+<meta name="robots" content="NONE,NOARCHIVE">
+</head>
+
+<body class=" app-authentication model-signup_student change-form"
+  data-admin-utc-offset="0">
+
+<!-- Container -->
+<div id="container">
+
+    
+    <!-- Header -->
+    
+    <div id="header">
+        <div id="branding">
+        
+<h1 id="site-name"><a href="/admin/">Django administration</a></h1>
+
+        </div>
+        
+        
+        <div id="user-tools">
+            
+                Welcome,
+                <strong>Akshay</strong>.
+            
+            
+                
+                    <a href="/">View site</a> /
+                
+                
+                    
+                    
+                
+                
+                <a href="/admin/password_change/">Change password</a> /
+                
+                <a href="/admin/logout/">Log out</a>
+            
+        </div>
+        
+        
+        
+    </div>
+    
+    <!-- END Header -->
+    
+<div class="breadcrumbs">
+<a href="/admin/">Home</a>
+&rsaquo; <a href="/admin/authentication/">Authentication</a>
+&rsaquo; <a href="/admin/authentication/signup_student/">Signup_students</a>
+&rsaquo; Akshay
+</div>
+
+    
+
+    <div class="main" id="main">
+      
+        
+          
+<button class="sticky toggle-nav-sidebar" id="toggle-nav-sidebar" aria-label="Toggle navigation"></button>
+<nav class="sticky" id="nav-sidebar">
+  <input type="search" id="nav-filter"
+         placeholder="Start typing to filter…"
+         aria-label="Filter navigation items">
+  
+
+
+  
+    <div class="app-authentication module current-app">
+      <table>
+        <caption>
+          <a href="/admin/authentication/" class="section" title="Models in the Authentication application">Authentication</a>
+        </caption>
+        
+          <tr class="model-signup_freelancer">
+            
+              <th scope="row"><a href="/admin/authentication/signup_freelancer/">Signup_freelancers</a></th>
+            
+
+            
+              <td><a href="/admin/authentication/signup_freelancer/add/" class="addlink">Add</a></td>
+            
+
+            
+          </tr>
+        
+          <tr class="model-signup_organization">
+            
+              <th scope="row"><a href="/admin/authentication/signup_organization/">Signup_organizations</a></th>
+            
+
+            
+              <td><a href="/admin/authentication/signup_organization/add/" class="addlink">Add</a></td>
+            
+
+            
+          </tr>
+        
+          <tr class="model-signup_student current-model">
+            
+              <th scope="row"><a href="/admin/authentication/signup_student/" aria-current="page">Signup_students</a></th>
+            
+
+            
+              <td><a href="/admin/authentication/signup_student/add/" class="addlink">Add</a></td>
+            
+
+            
+          </tr>
+        
+      </table>
+    </div>
+  
+    <div class="app-auth module">
+      <table>
+        <caption>
+          <a href="/admin/auth/" class="section" title="Models in the Authentication and Authorization application">Authentication and Authorization</a>
+        </caption>
+        
+          <tr class="model-group">
+            
+              <th scope="row"><a href="/admin/auth/group/">Groups</a></th>
+            
+
+            
+              <td><a href="/admin/auth/group/add/" class="addlink">Add</a></td>
+            
+
+            
+          </tr>
+        
+          <tr class="model-user">
+            
+              <th scope="row"><a href="/admin/auth/user/">Users</a></th>
+            
+
+            
+              <td><a href="/admin/auth/user/add/" class="addlink">Add</a></td>
+            
+
+            
+          </tr>
+        
+      </table>
+    </div>
+  
+
+
+</nav>
+
+        
+      
+      <div class="content">
+        
+          
+        
+        <!-- Content -->
+        <div id="content" class="colM">
+          
+          <h1>Change signup_student</h1>
+          <h2>Akshay</h2>
+          <div id="content-main">
+
+
+  <ul class="object-tools">
+    
+      
+
+<li>
+    
+    <a href="/admin/authentication/signup_student/1/history/" class="historylink">History</a>
+</li>
+
+
+
+    
+  </ul>
+
+
+<form method="post" id="signup_student_form" novalidate><input type="hidden" name="csrfmiddlewaretoken" value="WjfGEoczqZpNNkazHtr21xX88DYWpCaCjX9eHJDxaSfPNbO006nb8mdtAyS9tG0s">
+<div>
+
+
+
+
+
+
+
+  <fieldset class="module aligned ">
+    
+    
+    
+        <div class="form-row field-Student_firstname">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_Student_firstname">Student firstname:</label>
+                        
+                            <input type="text" name="Student_firstname" value="Akshay" class="vTextField" maxlength="50" required id="id_Student_firstname">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-Student_lastname">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_Student_lastname">Student lastname:</label>
+                        
+                            <input type="text" name="Student_lastname" value="Suryavanshi" class="vTextField" maxlength="50" required id="id_Student_lastname">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-Student_mailid">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_Student_mailid">Student mailid:</label>
+                        
+                            <input type="text" name="Student_mailid" value="r20202@gmail.com" class="vTextField" maxlength="100" required id="id_Student_mailid">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-Student_contact_number">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_Student_contact_number">Student contact number:</label>
+                        
+                            <input type="text" name="Student_contact_number" value="08951087015" class="vTextField" maxlength="13" required id="id_Student_contact_number">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-Student_address">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_Student_address">Student address:</label>
+                        
+                            <textarea name="Student_address" cols="40" rows="10" class="vLargeTextField" required id="id_Student_address">
+No. 2, Sri kalabairaweshwara nilaya
+gangotri badavane, kattigenhalli yelahanka</textarea>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-Student_org_name">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_Student_org_name">Student org name:</label>
+                        
+                            <input type="text" name="Student_org_name" value="reva" class="vTextField" maxlength="150" required id="id_Student_org_name">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-Student_dept_name">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_Student_dept_name">Student dept name:</label>
+                        
+                            <input type="text" name="Student_dept_name" value="ece" class="vTextField" maxlength="50" required id="id_Student_dept_name">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-Student_program_id">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_Student_program_id">Student program id:</label>
+                        
+                            <input type="text" name="Student_program_id" value="r20en054" class="vTextField" maxlength="50" required id="id_Student_program_id">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-Student_confirm_password">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_Student_confirm_password">Student confirm password:</label>
+                        
+                            <input type="text" name="Student_confirm_password" value="akshay" class="vTextField" maxlength="50" required id="id_Student_confirm_password">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-date_posted">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_date_posted_0">Date posted:</label>
+                        
+                            <p class="datetime">
+  Date: <input type="text" name="date_posted_0" value="2022-07-15" class="vDateField" size="10" required id="id_date_posted_0">
+
+<br>
+  Time: <input type="text" name="date_posted_1" value="13:34:59" class="vTimeField" size="8" required id="id_date_posted_1">
+
+
+</p><input type="hidden" name="initial-date_posted_0" value="2022-07-15" id="initial-id_date_posted_0"><input type="hidden" name="initial-date_posted_1" value="13:34:59" id="initial-id_date_posted_1">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-Student">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_Student">Student:</label>
+                        
+                            <div class="related-widget-wrapper">
+    <select name="Student" required id="id_Student">
+  <option value="">---------</option>
+
+  <option value="1" selected>Akshay</option>
+
+</select>
+    
+        <a class="related-widget-wrapper-link change-related" id="change_id_Student"
+            data-href-template="/admin/auth/user/__fk__/change/?_to_field=id&amp;_popup=1"
+            title="Change selected user"><img src="/static/admin/img/icon-changelink.svg" alt="Change"></a><a class="related-widget-wrapper-link add-related" id="add_id_Student"
+            href="/admin/auth/user/add/?_to_field=id&amp;_popup=1"
+            title="Add another user"><img src="/static/admin/img/icon-addlink.svg" alt="Add"></a>
+    
+</div>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="submit-row">
+
+<input type="submit" value="Save" class="default" name="_save">
+
+    
+    <p class="deletelink-box"><a href="/admin/authentication/signup_student/1/delete/" class="deletelink">Delete</a></p>
+
+
+<input type="submit" value="Save and add another" name="_addanother">
+<input type="submit" value="Save and continue editing" name="_continue">
+
+
+</div>
+
+
+
+    <script id="django-admin-form-add-constants"
+            src="/static/admin/js/change_form.js"
+            
+            async>
+    </script>
+
+
+
+
+<script id="django-admin-prepopulated-fields-constants"
+        src="/static/admin/js/prepopulate_init.js"
+        data-prepopulated-fields="[]">
+</script>
+
+
+</div>
+</form></div>
+
+          
+          <br class="clear">
+        </div>
+        <!-- END Content -->
+        <div id="footer"></div>
+      </div>
+    </div>
+</div>
+<!-- END Container -->
+</body>
+</html>
